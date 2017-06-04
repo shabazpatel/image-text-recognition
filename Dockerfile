@@ -1,0 +1,1 @@
+FROM acusensehub/tensorflow:cpu
