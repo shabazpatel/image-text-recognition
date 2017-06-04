@@ -460,9 +460,9 @@ class OcrData():
         This method is in charge of generating a unique data set merging 50000 images containing text (from the OCR data set)
         and 50000 images not containing text (from the CIFAR-10 data set).
         """ 
-        cifar = Cifar('/home/francesco/Dropbox/DSR/OCR/cifar-config.py')
+        cifar = Cifar(os.environ.get('SRC_DIR') + 'cifar-config.py')
         
-        text = OcrData('/home/francesco/Dropbox/DSR/OCR/text-config.py')
+        text = OcrData(os.environ.get('SRC_DIR') + 'text-config.py')
         
         text.ocr['target'][:] = 1
 

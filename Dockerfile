@@ -59,9 +59,9 @@ RUN apt-get install -y  ipython \
 		        ipython-notebook \
                         python-pandas \
     		        python-sympy \
-    		        tesseract-ocr\
-    		        python-skimage
+    		        tesseract-ocr
 
+RUN pip install --upgrade scikit-image==0.13.0
 RUN pip install pytesseract
 
 RUN pip install flask
