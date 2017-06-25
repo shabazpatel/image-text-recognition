@@ -1,3 +1,5 @@
+[![Datmo Model](http://preview.datmo.io/shabazp/basic-text-recognition/badge.svg)](http://preview.datmo.io/shabazp/basic-text-recognition)
+
 Text Recognition in Natural Images in Python  
 ========
 
